@@ -1,0 +1,3 @@
+2026-01-21T10:34:03.934808+00:00 docker dockerd[954]: time="2026-01-21T10:34:03.932832019Z" level=error msg="copy stream failed" error="read /proc/self/fd/46: file already closed" stream=stderr
+2026-01-21T10:34:13.948529+00:00 docker containerd[801]: time="2026-01-21T10:34:13.943884242Z" level=error msg="failed to drain exec process fdd3cf058c31c6a1b3f83c7383e7e90e45b10907f5b502036f3f59298f37102b io" error="context deadline exceeded" runtime=io.containerd.runc.v2
+2026-01-21T10:34:13.950489+00:00 docker containerd[801]: time="2026-01-21T10:34:13.944457755Z" level=warning msg="error copying stderr" runtime=io.containerd.runc.v2

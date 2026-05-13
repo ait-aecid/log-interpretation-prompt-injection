@@ -1,0 +1,2 @@
+2025-09-22 18:58:46 INFO - Executing SSH-Command: 'sudo cat /etc/shadow'
+2025-09-22 18:58:46 INFO - Metadata: {"techniques": "T1003.008", "tactics": "Credential Access", "technique_name": "OS Credential Dumping: /etc/passwd and /etc/shadow"}

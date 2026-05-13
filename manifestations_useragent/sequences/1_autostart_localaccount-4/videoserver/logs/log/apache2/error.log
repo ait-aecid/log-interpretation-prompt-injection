@@ -1,0 +1,46 @@
+[Mon Sep 22 18:32:01.573734 2025] [mpm_prefork:notice] [pid 603] AH00171: Graceful restart requested, doing restart
+[Mon Sep 22 18:32:01.777342 2025] [mpm_prefork:notice] [pid 603] AH00163: Apache/2.4.48 (Debian) configured -- resuming normal operations
+[Mon Sep 22 18:32:01.777356 2025] [core:notice] [pid 603] AH00094: Command line: '/usr/sbin/apache2'
+/usr/bin/zmu: option requires an argument -- 'm'
+zmu <-d device_path> [-v] [function] [-U<username> -P<password>]
+zmu <-m monitor_id> [-v] [function] [-U<username> -P<password>]
+General options:
+  -h, --help           : This screen
+  -v, --verbose          : Produce more verbose output
+  -l, --list           : List the current status of active (or all with -v) monitors
+Options for use with devices:
+  -d, --device [device_path]   : Get the current video device settings for [device_path] or all devices
+  -V, --version <V4L version>  : Set the Video 4 Linux API version to use for the query, use 1 or 2
+  -q, --query          : Query the current settings for the device
+Options for use with monitors:
+  -m, --monitor <monitor_id>   : Specify which monitor to address, default 1 if absent
+  -q, --query          : Query the current settings for the monitor
+  -s, --state          : Output the current monitor state, 0 = idle, 1 = prealarm, 2 = alarm,
+                   3 = alert, 4 = tape
+  -B, --brightness [value]     : Output the current brightness, set to value if given 
+  -C, --contrast [value]     : Output the current contrast, set to value if given 
+  -H, --hue [value]        : Output the current hue, set to value if given 
+  -O, --colour [value]       : Output the current colour, set to value if given 
+  -i, --image [image_index]    : Write captured image to disk as <monitor_name>.jpg, last image captured
+                   or specified ring buffer index if given.
+  -S, --scale <scale_%%ge>    : With --image specify any scaling (in %%) to be applied to the image
+  -t, --timestamp [image_index]  : Output captured image timestamp, last image captured or specified
+                   ring buffer index if given
+  -R, --read_index         : Output ring buffer read index
+  -W, --write_index        : Output ring buffer write index
+  -e, --event          : Output last event index
+  -f, --fps            : Output last Frames Per Second captured reading
+  -z, --zones          : Write last captured image overlaid with zones to <monitor_name>-Zones.jpg
+  -a, --alarm          : Force alarm in monitor, this will trigger recording until cancelled with -c
+  -n, --noalarm          : Force no alarms in monitor, this will prevent alarms until cancelled with -c
+  -c, --cancel           : Cancel a forced alarm/noalarm in monitor, required after being enabled with -a or -n
+  -L, --reload           : Signal monitor to reload settings
+  -E, --enable           : Enable detection, wake monitor up
+  -D, --disable          : Disable detection, put monitor to sleep
+  -u, --suspend          : Suspend detection, useful to prevent bogus alarms when panning etc
+  -r, --resume           : Resume detection after a suspend
+  -U, --username <username>    : When running in authenticated mode the username and
+  -P, --password <password>    : password combination of the given user
+  -A, --auth <authentication>  : Pass authentication hash string instead of user details
+  -T, --token <token>  : Pass JWT token string instead of user details
+  -x, --xtrigger       : Output the current monitor trigger state, 0 = not triggered, 1 = triggered

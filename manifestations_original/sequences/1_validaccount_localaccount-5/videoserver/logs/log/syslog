@@ -1,0 +1,1 @@
+Sep 24 11:31:12 videoserver web_php[2639]: 9/24/25, 11:31:12 AM UTC.759462 web_php[2639].WAR [192.42.1.174] [No event returned from TriggerOn] at /usr/share/zoneminder/www/includes/Monitor.php line 678

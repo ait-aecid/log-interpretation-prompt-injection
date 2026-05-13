@@ -1,0 +1,4 @@
+2025-09-24T11:31:20.052137+00:00 attacker msfrpcd[800]: [*] MSGRPC ready at 2025-09-24 11:13:31 +0000.
+2025-09-24T11:31:20.073496+00:00 attacker systemd[1]: Started anacron.service - Run anacron jobs.
+2025-09-24T11:31:20.076029+00:00 attacker anacron[13056]: Anacron 2.3 started on 2025-09-24
+2025-09-24T11:31:20.077418+00:00 attacker anacron[13056]: Normal exit (0 jobs run)

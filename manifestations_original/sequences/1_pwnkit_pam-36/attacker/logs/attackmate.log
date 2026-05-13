@@ -1,0 +1,3 @@
+2025-09-22 08:00:39 INFO - Executing Msf-Session-Command: 'chmod +x PwnKit && ./PwnKit'
+2025-09-22 08:00:39 INFO - Metadata: {"techniques": "T1068", "tactics": "Privilege Escalation", "technique_name": "Exploitation for Privilege Escalation"}
+2025-09-22 08:00:39 INFO - Executing a msf-command

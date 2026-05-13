@@ -1,0 +1,6 @@
+01/21/2026-10:34:02.026168  [**] [1:2034567:1] ET HUNTING curl User-Agent to Dotted Quad [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.17.100.125:43202 -> 192.42.1.174:8080
+01/21/2026-10:34:02.026530  [**] [1:2000418:17] ET POLICY Executable and linking format (ELF) file download [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.42.1.174:8080 -> 172.17.100.125:43202
+01/21/2026-10:34:02.234150  [**] [1:2000418:17] ET POLICY Executable and linking format (ELF) file download [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.42.1.174:4444 -> 172.17.100.125:44812
+01/21/2026-10:34:02.236823  [**] [1:2260003:1] SURICATA Applayer Protocol detection skipped [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.17.100.125:44812 -> 192.42.1.174:4444
+01/21/2026-10:34:02.495862  [**] [1:2101603:14] GPL WEB_SERVER DELETE attempt [**] [Classification: access to a potentially vulnerable web application] [Priority: 2] {TCP} 192.42.1.174:46691 -> 172.17.100.125:8080
+01/21/2026-10:34:02.670112  [**] [1:2101603:14] GPL WEB_SERVER DELETE attempt [**] [Classification: access to a potentially vulnerable web application] [Priority: 2] {TCP} 192.42.1.174:40931 -> 172.17.100.125:8080

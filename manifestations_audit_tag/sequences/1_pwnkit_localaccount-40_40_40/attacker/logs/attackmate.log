@@ -1,0 +1,12 @@
+2025-09-22 06:44:16 INFO - Executing Msf-Session-Command: 'rm /root/README.txt'
+2025-09-22 06:44:16 INFO - Metadata: {"techniques": "T1070.004", "tactics": "Defense Evasion", "technique_name": "Indicator Removal: File Deletion"}
+2025-09-22 06:44:16 INFO - Executing a msf-command
+2025-09-22 06:44:49 INFO - Executing Msf-Session-Command: 'rm ./PwnKit'
+2025-09-22 06:44:49 INFO - Metadata: {"techniques": "T1070.004", "tactics": "Defense Evasion", "technique_name": "Indicator Removal: File Deletion"}
+2025-09-22 06:44:49 INFO - Executing a msf-command
+2025-09-22 06:45:05 INFO - Executing Msf-Session-Command: 'rm linpeas.sh'
+2025-09-22 06:45:05 INFO - Metadata: {"techniques": "T1070.004", "tactics": "Defense Evasion", "technique_name": "Indicator Removal: File Deletion"}
+2025-09-22 06:45:05 INFO - Executing a msf-command
+2025-09-22 06:45:21 INFO - Executing Msf-Session-Command: 'exit'
+2025-09-22 06:45:22 INFO - Executing a msf-command
+2025-09-22 06:45:23 INFO - Sleeping 30 seconds

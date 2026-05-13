@@ -1,0 +1,2 @@
+2026-01-21 10:33:10 INFO - Executing Msf-Module: 'exploit/unix/webapp/nextcloud_workflows_rce'
+2026-01-21 10:33:10 INFO - Metadata: {"tactics": "Initial Access, Execution,Command and Control", "techniques": "T1190,T1059.004,T1095", "description": "Attacker exploits an authenticated vulnerability in nextcloud and executes a meterpreter shell"}

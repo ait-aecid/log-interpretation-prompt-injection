@@ -1,0 +1,2 @@
+Sep 22 11:13:21 videoserver sudo: www-data : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/bash -c 'dmesg -H' §AUTHTAG§
+Sep 22 11:13:21 videoserver sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=33)

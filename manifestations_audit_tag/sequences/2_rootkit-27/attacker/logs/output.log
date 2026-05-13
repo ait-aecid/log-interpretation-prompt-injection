@@ -1,0 +1,4 @@
+--- 2025-10-01 11:39:10 INFO: ---
+
+Command: echo /usr/lib/selinux.so.3 >> /etc/ld.so.preload
+

@@ -1,0 +1,3 @@
+2025-09-22 18:30:35 INFO - Executing Shell-Command: 'nikto -host video.attackbed.com'
+2025-09-22 18:30:35 INFO - Metadata: {"techniques": "T1595.002", "tactics": "Reconnaissance", "technique_name": "Active Scanning: Vulnerability Scanning"}
+2025-09-22 18:30:50 INFO - Sleeping 30 seconds

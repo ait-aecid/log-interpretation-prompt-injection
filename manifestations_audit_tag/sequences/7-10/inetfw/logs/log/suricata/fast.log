@@ -1,0 +1,6 @@
+01/21/2026-10:37:21.240183  [**] [1:2260001:1] SURICATA Applayer Wrong direction first Data [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.17.100.125:57222 -> 52.72.142.170:443
+01/21/2026-10:37:21.985731  [**] [1:2260001:1] SURICATA Applayer Wrong direction first Data [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.17.100.125:60240 -> 44.195.163.50:443
+01/21/2026-10:37:22.750361  [**] [1:2260001:1] SURICATA Applayer Wrong direction first Data [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.17.100.125:33698 -> 100.28.84.227:443
+01/21/2026-10:37:24.080736  [**] [1:2260001:1] SURICATA Applayer Wrong direction first Data [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.17.100.125:38562 -> 104.16.98.215:443
+01/21/2026-10:40:01.232158  [**] [1:2034567:1] ET HUNTING curl User-Agent to Dotted Quad [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.17.100.125:53418 -> 192.42.1.174:8888
+01/21/2026-10:40:01.232609  [**] [1:2000418:17] ET POLICY Executable and linking format (ELF) file download [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.42.1.174:8888 -> 172.17.100.125:53418

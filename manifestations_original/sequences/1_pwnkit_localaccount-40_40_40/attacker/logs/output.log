@@ -1,0 +1,25 @@
+--- 2025-09-22 06:44:18 INFO: ---
+
+Command: rm /root/README.txt
+rm /root/README.txt
+root@videoserver:~# 
+root@videoserver:~# 
+--- 2025-09-22 06:44:50 INFO: ---
+
+Command: rm ./PwnKit
+
+PWN >rm ./PwnKit
+PWN >
+PWN >
+--- 2025-09-22 06:45:06 INFO: ---
+
+Command: rm linpeas.sh
+rm linpeas.sh
+PWN >
+--- 2025-09-22 06:45:23 INFO: ---
+
+Command: exit
+
+PWN >exit
+exit
+

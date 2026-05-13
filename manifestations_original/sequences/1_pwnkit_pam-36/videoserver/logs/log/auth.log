@@ -1,0 +1,1 @@
+Sep 22 08:00:39 videoserver pkexec[17157]: www-data: The value for the SHELL variable was not found the /etc/shells file [USER=root] [TTY=/dev/pts/0] [CWD=/tmp] [COMMAND=GCONV_PATH=./.pkexec PATH=GCONV_PATH=. CHARSET=pkexec SHELL=pkexec]

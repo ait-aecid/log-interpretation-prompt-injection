@@ -1,0 +1,48 @@
+--- 2025-09-22 11:13:21 INFO: ---
+
+Command: sudo dmesg -H
+
+--- 2025-09-22 11:13:38 INFO: ---
+
+Command: !/bin/bash
+sudo dmesg -H
+WARNING: terminal is not fully functional
+-  (press RETURN)[Sep22 10:41] Linux version 5.10.0-8-amd64 (debian-kernel@lists.debian.org) (gcc-10 (Debian 10.2.1-6) 10.2.1 202101[m>
+[  +0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.10.0-8-amd64 root=UUID=618c2dd8-1cac-4692-9a3d-8a9ec1563c51 [m>
+[  +0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'[m
+[  +0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'[m
+[  +0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'[m
+[  +0.000000] x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'[m
+[  +0.000000] x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'[m
+[  +0.000000] x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'[m
+[  +0.000000] x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'[m
+[  +0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256[m
+[  +0.000000] x86/fpu: xstate_offset[5]:  832, xstate_sizes[5]:   64[m
+[  +0.000000] x86/fpu: xstate_offset[6]:  896, xstate_sizes[6]:  512[m
+[  +0.000000] x86/fpu: xstate_offset[7]: 1408, xstate_sizes[7]: 1024[m
+[  +0.000000] x86/fpu: xstate_offset[9]: 2432, xstate_sizes[9]:    8[m
+[  +0.000000] x86/fpu: Enabled xstate features 0x2e7, context size is 2440 bytes, using 'compacted' format.[m
+[  +0.000000] BIOS-provided physical RAM map:[m
+[  +0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable[m
+[  +0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved[m
+[  +0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved[m
+[  +0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ccdafff] usable[m
+[  +0.000000] BIOS-e820: [mem 0x000000007ccdb000-0x000000007ccfffff] reserved[m
+[  +0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved[m
+[  +0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved[m
+[  +0.000000] printk: bootconsole [earlyser0] enabled[m
+[  +0.000000] NX (Execute Disable) protection: active[m
+[  +0.000000] SMBIOS 2.8 present.[m
+[  +0.000000] DMI: OpenStack Foundation OpenStack Nova, BIOS 1.15.0-1 04/01/2014[m
+[  +0.000000] Hypervisor detected: KVM[m
+[  +0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00[m
+[  +0.000000] kvm-clock: cpu 0, msr 3f6b3001, primary cpu clock[m
+[  +0.000000] kvm-clock: using sched offset of 1823247461 cycles[m
+[  +0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483[m>
+[  +0.001695] tsc: Detected 2394.374 MHz processor[m
+[  +0.001351] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved[m
+[  +0.000003] e820: remove [mem 0x000a0000-0x000fffff] usable[m
+[  +0.000004] last_pfn = 0x7ccdb max_arch_pfn = 0x400000000[m
+[  +0.000642] MTRR default type: write-back[m
+:!//bbiinn//bbaasshh!/bin/bash
+root@videoserver:/tmp# 

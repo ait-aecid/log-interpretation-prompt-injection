@@ -1,0 +1,3 @@
+2025-09-22 18:31:35 INFO - Executing Shell-Command: 'ffuf -w /usr/local/share/SecLists/Discovery/Web-Content/raft-small-directories-lowercase.txt -u http://video.attackbed.com/FUZZ'
+2025-09-22 18:31:35 INFO - Metadata: {"techniques": "T1595.003", "tactics": "Reconnaissance", "technique_name": "Active Scanning: Wordlist Scanning"}
+2025-09-22 18:31:41 INFO - Sleeping 90 seconds

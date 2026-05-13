@@ -1,0 +1,57 @@
+--- 2025-09-22 18:31:41 INFO: ---
+
+Command: ffuf -w /usr/local/share/SecLists/Discovery/Web-Content/raft-small-directories-lowercase.txt -u http://video.attackbed.com/FUZZ
+
+[2Klog                     [Status: 301, Size: 239, Words: 14, Lines: 8, Duration: 0ms][0m
+
+[2Kserver-status           [Status: 403, Size: 199, Words: 14, Lines: 8, Duration: 1ms][0m
+
+[2Kzm                      [Status: 301, Size: 238, Words: 14, Lines: 8, Duration: 1ms][0m
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://video.attackbed.com/FUZZ
+ :: Wordlist         : FUZZ: /usr/local/share/SecLists/Discovery/Web-Content/raft-small-directories-lowercase.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+
+[2K:: Progress: [1/17769] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::
+[2K:: Progress: [193/17769] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::
+[2K:: Progress: [941/17769] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::
+[2K:: Progress: [2005/17769] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::
+[2K:: Progress: [3101/17769] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::
+[2K:: Progress: [3788/17769] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::
+[2K:: Progress: [4039/17769] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::
+[2K:: Progress: [5148/17769] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::
+[2K:: Progress: [6121/17769] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::
+[2K:: Progress: [7068/17769] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::
+[2K:: Progress: [8227/17769] :: Job [1/1] :: 10526 req/sec :: Duration: [0:00:01] :: Errors: 0 ::
+[2K:: Progress: [9480/17769] :: Job [1/1] :: 10526 req/sec :: Duration: [0:00:01] :: Errors: 0 ::
+[2K:: Progress: [10721/17769] :: Job [1/1] :: 10526 req/sec :: Duration: [0:00:01] :: Errors: 0 ::
+[2K:: Progress: [11979/17769] :: Job [1/1] :: 10526 req/sec :: Duration: [0:00:01] :: Errors: 0 ::
+[2K:: Progress: [13245/17769] :: Job [1/1] :: 10526 req/sec :: Duration: [0:00:01] :: Errors: 0 ::
+[2K:: Progress: [14609/17769] :: Job [1/1] :: 11111 req/sec :: Duration: [0:00:01] :: Errors: 0 ::
+[2K:: Progress: [15922/17769] :: Job [1/1] :: 10000 req/sec :: Duration: [0:00:01] :: Errors: 0 ::
+[2K:: Progress: [17154/17769] :: Job [1/1] :: 10526 req/sec :: Duration: [0:00:01] :: Errors: 0 ::
+[2K:: Progress: [17469/17769] :: Job [1/1] :: 9523 req/sec :: Duration: [0:00:01] :: Errors: 0 ::
+[2K:: Progress: [17769/17769] :: Job [1/1] :: 9523 req/sec :: Duration: [0:00:02] :: Errors: 0 ::
+[2K:: Progress: [17769/17769] :: Job [1/1] :: 57 req/sec :: Duration: [0:00:05] :: Errors: 0 ::
+
+--- 2025-09-22 18:33:11 INFO: ---
+
+Command: sleep
+Awake O_O

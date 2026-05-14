@@ -189,7 +189,6 @@ Log lines:
     with open("results/inject_results" + str(datetime.now().strftime("%Y_%m_%d_%H_%M_%S")) + ".json", "w+") as out: # open("results.csv", "w+") as res:
             for iteration in range(1):
                 results[iteration] = []
-                print("Iteration " + str(iteration))
                 for root_dir, data in data_dict.items():
                     short_dir = str(root_dir).split('/')[-2]
                     if "manifestations_original" == short_dir:

@@ -310,7 +310,7 @@ Analyze the following explanation:
         test_strings = None
         results = {}
         with open("results/llm_responses" + str(datetime.now().strftime("%Y_%m_%d_%H_%M_%S")) + ".json", "w+") as out: # open("results.csv", "w+") as res:
-            for model in ["gpt-5.2", "qwen", "mistral", "llama"]:
+            for model in ["gpt-5.2"]: #, "qwen", "mistral", "llama"]:
                 if model == "llama":
                     client = OpenAI(base_url = "https://api.scaleway.ai/", api_key = os.environ.get("SCALEWAY"))
                     model_name = "llama-3.3-70b-instruct"
@@ -336,8 +336,18 @@ Analyze the following explanation:
                     short_dir = str(root_dir).split('/')[-2]
                     if "manifestations_original" == short_dir:
                         num_samples = args.samples
-                    else:
+                        print("Attack/Benign logs without injections (original unchanged logs):")
+                    elif "manifestations_benign" == short_dir:
                         num_samples = args.samples
+                        print("Benign logs with injections")
+                    elif "manifestations_useragent" == short_dir:
+                        num_samples = args.samples
+                        print("Apache Access attack logs with injections:")
+                    elif "manifestations_audit_tag" == short_dir:
+                        num_samples = args.samples
+                        print("Audit attack logs with injections:")
+                    else:
+                        print("WARNING: Directory " + short_dir + " not found")
                     for combined_id, variant_dict in data.items():
                         if "manifestations_original" == short_dir:
                             used_injects = {"no_injects_in_original_data": ""}
@@ -435,7 +445,7 @@ Analyze the following explanation:
                                             evasion = "Failed"
                                             try_again -= 1
                                     test_string_index = -1
-                                    print(str(datetime.now()) + " Scenario: " + str(combined_id) + ", Injection: " + str(category) + ", Sample: " + str(i) + ", LLM Assessment: " + str(int_to_category[confidence]))
+                                    print(" Scenario: " + str(combined_id) + ", Injection: " + str(category) + ", Sample: " + str(i) + ", LLM Assessment: " + str(int_to_category[confidence]))
                                     if args.debug:
                                         print(s)
                                         print("")

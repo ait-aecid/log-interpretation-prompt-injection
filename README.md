@@ -1,6 +1,6 @@
 # Adversarial Attacks against LLM-based System Log Interpretation
 
-This repository supports experiments on prompt-injection attacks against LLM-based log interpretation. The main idea is to provide log samples to an LLM and ask it to classify whether the observed activity is more likely malicious or normal. The scripts provided in this repository automate this task and assess whether this classification changes when adversarial strings are injected into the logs. To this end, this repository contains prepared log manifestations corresponding to selected attack steps from [CAM-LDS](https://zenodo.org/records/18861762) and [AIT-LDSv2](https://zenodo.org/records/19483937).
+This repository supports experiments on prompt-injection attacks against LLM-based log interpretation. LLMs can support analysts in assessing whether user activity observed in log data is normal or contains traces of attacks. The scripts provided in this repository automate this task and assess whether this classification changes when adversarial strings are injected into the logs. To this end, this repository contains prepared log manifestations corresponding to selected attack steps from [CAM-LDS](https://zenodo.org/records/18861762) and [AIT-LDSv2](https://zenodo.org/records/19483937). We refer to our paper for more details on our experimental setup and data.
 
 ## Preparation
 

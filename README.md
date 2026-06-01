@@ -10,7 +10,7 @@ The scripts rely on OpenAI API calls. To use the scripts as-is, set the followin
 export OPENAI_API_KEY="<key>"
 ```
 
-The code is also prepared to use other models using Scaleway API. To use them, set `export SCALEWAY="<key>"` and comment in the models in code.
+The code is also prepared to use other models using Scaleway API. To use them, set `export SCALEWAY="<key>"` and uncomment the respective models in code.
 
 ## Usage
 

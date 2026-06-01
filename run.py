@@ -121,6 +121,7 @@ category_to_int = {
     "Almost Certain: Normal": 6,
     "Certain: Normal": 7
 }
+int_to_category = {v: k for k, v in category_to_int.items()}
 
 def main():
     parser = argparse.ArgumentParser(
@@ -132,6 +133,12 @@ def main():
         choices=["init", "iter", "log", "test"],
         default="test",
         help="Run initially generated strings, iteratively refined strings, log-optimized strings, or a test string",
+    )
+    parser.add_argument(
+        "--samples",
+        type=int,
+        default=1,
+        help="Number of repetitions",
     )
     parser.add_argument(
         "--debug",
@@ -324,13 +331,13 @@ Analyze the following explanation:
                     exit()
                 gpt52 = ChatOpenAI(model="gpt-5.2", temperature=0)
                 results = []
-                print("Iteration " + str(args.mode))
+                print("Mode: " + str(args.mode) + ", Model: " + model + "\n")
                 for root_dir, data in data_dict.items():
                     short_dir = str(root_dir).split('/')[-2]
                     if "manifestations_original" == short_dir:
-                        num_samples = 5
+                        num_samples = args.samples
                     else:
-                        num_samples = 5
+                        num_samples = args.samples
                     for combined_id, variant_dict in data.items():
                         if "manifestations_original" == short_dir:
                             used_injects = {"no_injects_in_original_data": ""}
@@ -428,7 +435,7 @@ Analyze the following explanation:
                                             evasion = "Failed"
                                             try_again -= 1
                                     test_string_index = -1
-                                    print(str(datetime.now()) + " " + str(model) + " " + str(short_dir) + " " + str(combined_id) + " " + str(variant) +  " test " + str(category) + " sample " + str(i) + ": " + str(confidence))
+                                    print(str(datetime.now()) + " Scenario: " + str(combined_id) + ", Injection: " + str(category) + ", Sample: " + str(i) + ", LLM Assessment: " + str(int_to_category[confidence]))
                                     if args.debug:
                                         print(s)
                                         print("")
